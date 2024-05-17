@@ -7,7 +7,41 @@
     <title>Calculator</title>
 </head>
 <body>
+     
+    <h2>Keira's Calculator</h2>
+    <div class="erik" id="calculator">
 
+    <input id="display"  type ="text" name ="display" data-entry readonly>
+      <div>
+        <button class="button button2" onclick="clearDisplay()" id="operator-btn">C</button>
+    </div>
+    <div>
+        <button class="button" onclick="display('7')" >7</button>
+        <button class="button" onclick="display('8')">8</button>
+        <button class="button" onclick="display('9')">9</button>
+        <button class="button" id="operator-btn" onclick="display('/')">÷</button>
+    </div>
+    <div>
+        <button class="button" onclick="display('4')">4</button>
+        <button class="button" onclick="display('5')">5</button>
+        <button class="button" onclick="display('6')">6</button>
+        <button class="button" id="operator-btn" onclick="display('+')">+</button>
+    </div>
+    <div>
+        <button class="button" onclick="display('1')">1</button>
+        <button class="button" onclick="display('2')">2</button>
+        <button class="button" onclick="display('3')">3</button>
+        <button class="button" id="operator-btn" onclick="display('-')">-</button>
+    </div>  
+    <div>  
+        <button class="button" onclick="display('0')">0</button>
+        <button class="button" onclick="display('.')">.</button>
+        <button class="button" onclick="calculate()">=</button>
+        <button class="button" id="operator-btn" onclick="display('*')">*</button>
+    </div>
+  <p>KeiraK</p>
+
+</div>
 <script src="./Script/code.js"></script>
 </body>
 </html>
